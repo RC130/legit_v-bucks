@@ -1,0 +1,24 @@
+{
+  "name": "Is this a real V-Buck site?",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Helps you recongnize legitimate V-Bucks sites",
+  "homepage_url": "https://www.epicgames.com/fortnite/en-US/home",
+  "icons": {
+    "16": "icons/vbucks16.png",
+    "48": "icons/vbucks48.png",
+    "128": "icons/vbucks128.png"
+  },
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icons/vbucks19.png",
+    "default_title": "browser action demo",
+    "default_popup": "src/browser_action/no1.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
